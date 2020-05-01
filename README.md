@@ -1,5 +1,5 @@
-中文版本：https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E
-本地安装地址：/Users/suxiaowei/Downloads/you-get-master
+中文版本：https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E  
+本地安装地址：/Users/suxiaowei/Downloads/you-get-master  
 # You-Get
 
 [![PyPI version](https://img.shields.io/pypi/v/you-get.svg)](https://pypi.python.org/pypi/you-get/)
