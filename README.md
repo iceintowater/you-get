@@ -1,6 +1,13 @@
 中文版本：https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E  
 本地安装地址：/Users/suxiaowei/Downloads/you-get-master  
-osx上，chrome的cookies文件保存在~/Library/Application Support/Google/Chrome/Default 里，cookies文件是个SQLite3 format file，需要用sqlite3查看
+osx上，
+chrome的cookies文件保存在~/Library/Application Support/Google/Chrome/Default 里，cookies文件是个SQLite3 format file，需要用sqlite3查看.  
+# you-get不支持chrome cookie的表数据。  
+firefox的cookies文件保存在
+b站会员视频下载栗子： /Users/suxiaowei/Library/ApplicationSupport/Firefox/Profiles/y9r6ty4y.default-release/cookies.sqlite 
+you-get -o /Users/suxiaowei/Desktop -O huiyuanbilibili -c /Users/suxiaowei/Library/ApplicationSupport/Firefox/Profiles/y9r6ty4y.default-release/cookies.sqlite 'https://www.bilibili.com/bangumi/play/ep307056' --playlist   
+# you-get支持fire fox cookie的表数据。 
+
 # You-Get
 
 [![PyPI version](https://img.shields.io/pypi/v/you-get.svg)](https://pypi.python.org/pypi/you-get/)
